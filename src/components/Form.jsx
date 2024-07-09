@@ -108,7 +108,7 @@ const Form = ({ amount, term, interest, calcType, updateFields }) => {
     <main className='bg-white w-full h-screen flex flex-col md:h-full md:rounded-3xl md:my-8 lg:w-[840px] lg:h-fit lg:flex-row'>
         <form ref={formRef} className='w-full relative mb-8 md:h-full lg:w-1/2 lg:ms-8 lg:me-11 lg:my-8' onSubmit={handleSubmit}>
             <div className="flex flex-col gap-2 items-start mt-8 mb-6 md:flex-row md:justify-between max-lg:mx-8 lg:items-center lg:mt-0">
-              <h3 className='text-slate900 text-[1.3rem] font-bold lg:text-lg'>Mortgage Calculator</h3>
+              <h1 className='text-slate900 text-[1.3rem] font-bold lg:text-lg'>Mortgage Calculator</h1>
               <button className='bg-transparent underline text-slate700 text-sm hover:text-slate900' type='button' onClick={handleClearAll}>Clear All</button>
             </div>
             <div className='flex flex-col max-lg:mx-8'>
